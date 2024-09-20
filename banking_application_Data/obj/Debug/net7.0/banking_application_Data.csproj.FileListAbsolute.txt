@@ -1,0 +1,14 @@
+D:\y\banking_application_Data\bin\Debug\net7.0\banking_application_Data.deps.json
+D:\y\banking_application_Data\bin\Debug\net7.0\banking_application_Data.dll
+D:\y\banking_application_Data\bin\Debug\net7.0\banking_application_Data.pdb
+D:\y\banking_application_Data\obj\Debug\net7.0\banking_application_Data.GeneratedMSBuildEditorConfig.editorconfig
+D:\y\banking_application_Data\obj\Debug\net7.0\banking_application_Data.AssemblyInfoInputs.cache
+D:\y\banking_application_Data\obj\Debug\net7.0\banking_application_Data.AssemblyInfo.cs
+D:\y\banking_application_Data\obj\Debug\net7.0\banking_application_Data.csproj.CoreCompileInputs.cache
+D:\y\banking_application_Data\obj\Debug\net7.0\banking_application_Data.dll
+D:\y\banking_application_Data\obj\Debug\net7.0\refint\banking_application_Data.dll
+D:\y\banking_application_Data\obj\Debug\net7.0\banking_application_Data.pdb
+D:\y\banking_application_Data\obj\Debug\net7.0\ref\banking_application_Data.dll
+D:\y\banking_application_Data\obj\Debug\net7.0\banking_application_Data.csproj.AssemblyReference.cache
+D:\y\banking_application_Data\bin\Debug\net7.0\banking_application_Data.runtimeconfig.json
+D:\y\banking_application_Data\obj\Debug\net7.0\banking_application_Data.genruntimeconfig.cache

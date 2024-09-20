@@ -1,0 +1,15 @@
+D:\y\Banking_application_Business\bin\Debug\net7.0\Banking_application_Business.deps.json
+D:\y\Banking_application_Business\bin\Debug\net7.0\Banking_application_Business.dll
+D:\y\Banking_application_Business\bin\Debug\net7.0\Banking_application_Business.pdb
+D:\y\Banking_application_Business\bin\Debug\net7.0\banking_application_Data.dll
+D:\y\Banking_application_Business\bin\Debug\net7.0\banking_application_Data.pdb
+D:\y\Banking_application_Business\obj\Debug\net7.0\Banking_application_Business.csproj.AssemblyReference.cache
+D:\y\Banking_application_Business\obj\Debug\net7.0\Banking_application_Business.GeneratedMSBuildEditorConfig.editorconfig
+D:\y\Banking_application_Business\obj\Debug\net7.0\Banking_application_Business.AssemblyInfoInputs.cache
+D:\y\Banking_application_Business\obj\Debug\net7.0\Banking_application_Business.AssemblyInfo.cs
+D:\y\Banking_application_Business\obj\Debug\net7.0\Banking_application_Business.csproj.CoreCompileInputs.cache
+D:\y\Banking_application_Business\obj\Debug\net7.0\Banking_application_Business.csproj.CopyComplete
+D:\y\Banking_application_Business\obj\Debug\net7.0\Banking_application_Business.dll
+D:\y\Banking_application_Business\obj\Debug\net7.0\refint\Banking_application_Business.dll
+D:\y\Banking_application_Business\obj\Debug\net7.0\Banking_application_Business.pdb
+D:\y\Banking_application_Business\obj\Debug\net7.0\ref\Banking_application_Business.dll
