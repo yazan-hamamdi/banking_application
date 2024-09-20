@@ -3547,11 +3547,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\y\\Banking_application_API\\Banking_application_API.csproj",
+      "projectUniqueName": "D:\\banking_application1\\Banking_application_API\\Banking_application_API.csproj",
       "projectName": "Banking_application_API",
-      "projectPath": "D:\\y\\Banking_application_API\\Banking_application_API.csproj",
+      "projectPath": "D:\\banking_application1\\Banking_application_API\\Banking_application_API.csproj",
       "packagesPath": "C:\\Users\\skynet\\.nuget\\packages\\",
-      "outputPath": "D:\\y\\Banking_application_API\\obj\\",
+      "outputPath": "D:\\banking_application1\\Banking_application_API\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\skynet\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -3568,8 +3568,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "D:\\y\\Banking_application_Business\\Banking_application_Business.csproj": {
-              "projectPath": "D:\\y\\Banking_application_Business\\Banking_application_Business.csproj"
+            "D:\\banking_application1\\Banking_application_Business\\Banking_application_Business.csproj": {
+              "projectPath": "D:\\banking_application1\\Banking_application_Business\\Banking_application_Business.csproj"
             }
           }
         }

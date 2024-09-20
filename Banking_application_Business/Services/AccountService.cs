@@ -19,7 +19,7 @@ namespace Banking_application_Business.Services
             _mapper = mapper;
         }
 
-        public async Task<AccountWithId> AddAsync(AccountWithId account)
+        public async Task<Account> AddAsync(AccountWithId account)
         {
             var realAccount = _mapper.Map<Account>(account); 
             await _accountRepo.AddAsync(realAccount);

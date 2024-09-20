@@ -12,8 +12,8 @@ using banking_application_Data;
 namespace banking_application_Data.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20240919081539_InitialCreate")]
-    partial class InitialCreate
+    [Migration("20240920222006_start")]
+    partial class start
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

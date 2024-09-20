@@ -1,6 +1,5 @@
-﻿using Banking_application_Business.IServices;
-using banking_application_Data.Entities;
-using banking_application_Data.IEntities;
+﻿using Banking_application_Business.DTOs;
+using Banking_application_Business.IServices;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Banking_application_API.Controllers
@@ -34,17 +33,17 @@ namespace Banking_application_API.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> CreateCustomer(Customer customer)
+        public async Task<IActionResult> CreateCustomer(CustomerWithId customer)
         {
             if (!ModelState.IsValid)
                 return BadRequest(ModelState);
 
             var createdCustomer = await _customerService.AddAsync(customer);
-            return CreatedAtAction(nameof(GetCustomerById), new { id = createdCustomer.Id }, createdCustomer);
+            return Ok(createdCustomer);
         }
 
         [HttpPut("{id}")]
-        public async Task<IActionResult> UpdateCustomer(int id, Customer customer)
+        public async Task<IActionResult> UpdateCustomer(int id, CustomerWithId customer)
         {
             if (!ModelState.IsValid)
                 return BadRequest(ModelState);

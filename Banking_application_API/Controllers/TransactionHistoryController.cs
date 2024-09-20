@@ -1,4 +1,5 @@
-﻿using Banking_application_Business.IServices;
+﻿using Banking_application_Business.DTOs;
+using Banking_application_Business.IServices;
 using banking_application_Data.Entities;
 using banking_application_Data.IEntities;
 using Microsoft.AspNetCore.Mvc;
@@ -33,17 +34,17 @@ namespace Banking_application_API.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> CreateTransactionHistory(TransactionHistory transactionHistory)
+        public async Task<IActionResult> CreateTransactionHistory(TransWithId transactionHistory)
         {
             if (!ModelState.IsValid)
                 return BadRequest(ModelState);
 
             var createdTransactionHistory = await _transactionHistoryService.AddAsync(transactionHistory);
-            return CreatedAtAction(nameof(GetTransactionHistoryById), new { id = createdTransactionHistory.Id }, createdTransactionHistory);
+            return Ok(UpdateTransactionHistory);
         }
 
         [HttpPut("{id}")]
-        public async Task<IActionResult> UpdateTransactionHistory(int id,TransactionHistory transactionHistory)
+        public async Task<IActionResult> UpdateTransactionHistory(int id,TransWithId transactionHistory)
         {
             if (!ModelState.IsValid)
                 return BadRequest(ModelState);

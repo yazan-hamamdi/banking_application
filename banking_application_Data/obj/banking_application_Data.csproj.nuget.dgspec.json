@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\y\\banking_application_Data\\banking_application_Data.csproj": {}
+    "D:\\banking_application1\\banking_application_Data\\banking_application_Data.csproj": {}
   },
   "projects": {
-    "D:\\y\\banking_application_Data\\banking_application_Data.csproj": {
+    "D:\\banking_application1\\banking_application_Data\\banking_application_Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\y\\banking_application_Data\\banking_application_Data.csproj",
+        "projectUniqueName": "D:\\banking_application1\\banking_application_Data\\banking_application_Data.csproj",
         "projectName": "banking_application_Data",
-        "projectPath": "D:\\y\\banking_application_Data\\banking_application_Data.csproj",
+        "projectPath": "D:\\banking_application1\\banking_application_Data\\banking_application_Data.csproj",
         "packagesPath": "C:\\Users\\skynet\\.nuget\\packages\\",
-        "outputPath": "D:\\y\\banking_application_Data\\obj\\",
+        "outputPath": "D:\\banking_application1\\banking_application_Data\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\skynet\\AppData\\Roaming\\NuGet\\NuGet.Config",

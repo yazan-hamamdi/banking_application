@@ -1,6 +1,5 @@
-﻿using Banking_application_Business.IServices;
-using banking_application_Data.Entities;
-using banking_application_Data.IEntities;
+﻿using Banking_application_Business.DTOs;
+using Banking_application_Business.IServices;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Banking_application_API.Controllers
@@ -46,13 +45,10 @@ namespace Banking_application_API.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> CreateAccount(Account account)
+        public async Task<IActionResult> CreateAccount(AccountWithId account)
         {
             try
             {
-                if (!ModelState.IsValid)
-                    return BadRequest(ModelState);
-
                 var createdAccount = await _accountService.AddAsync(account);
                 return Ok(createdAccount);
             }
@@ -63,7 +59,7 @@ namespace Banking_application_API.Controllers
         }
 
         [HttpPut("{id}")]
-        public async Task<IActionResult> UpdateAccount(int id, Account account)
+        public async Task<IActionResult> UpdateAccount(int id, AccountWithId account)
         {
             try
             {
