@@ -23,7 +23,7 @@ namespace banking_application_Data.Configurations
 
             builder.HasOne(c => c.Customer)
                    .WithMany(a => a.Accounts)
-                   .HasForeignKey(a => a.UserId);
+                   .HasForeignKey(a => a.CustomerId);
         }
     }
 }

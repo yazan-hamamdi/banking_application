@@ -32,7 +32,7 @@ namespace banking_application_Data.Repositories
 
         public async Task<ICollection<Account>> GetAllAsync()
         {
-            return await _context.Accounts.ToListAsync();  
+            return await _context.Accounts.AsNoTracking().ToListAsync();  
         }
 
         public async Task<Account> GetByIdAsync(int id)

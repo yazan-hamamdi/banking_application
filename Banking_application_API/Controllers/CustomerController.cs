@@ -1,5 +1,6 @@
 ﻿using Banking_application_Business.DTOs;
 using Banking_application_Business.IServices;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Banking_application_API.Controllers
@@ -14,7 +15,7 @@ namespace Banking_application_API.Controllers
         {
             _customerService = customerService;
         }
-
+        [Authorize(Roles = "Admin")]
         [HttpGet]
         public async Task<IActionResult> GetAllCustomers()
         {
@@ -31,7 +32,7 @@ namespace Banking_application_API.Controllers
 
             return Ok(customer);
         }
-
+        [Authorize(Roles = "User")] // just for testing this method we are not needed anymore :)
         [HttpPost]
         public async Task<IActionResult> CreateCustomer(CustomerWithId customer)
         {
@@ -43,7 +44,7 @@ namespace Banking_application_API.Controllers
         }
 
         [HttpPut("{id}")]
-        public async Task<IActionResult> UpdateCustomer(int id, CustomerWithId customer)
+        public async Task<IActionResult> UpdateCustomer(string id, CustomerWithId customer)
         {
             if (!ModelState.IsValid)
                 return BadRequest(ModelState);

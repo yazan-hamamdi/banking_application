@@ -166,3 +166,9 @@ D:\banking_application1\Banking_application_API\obj\Debug\net7.0\refint\Banking_
 D:\banking_application1\Banking_application_API\obj\Debug\net7.0\Banking_application_API.pdb
 D:\banking_application1\Banking_application_API\obj\Debug\net7.0\Banking_application_API.genruntimeconfig.cache
 D:\banking_application1\Banking_application_API\obj\Debug\net7.0\ref\Banking_application_API.dll
+D:\banking_application1\Banking_application_API\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\banking_application1\Banking_application_API\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\banking_application1\Banking_application_API\bin\Debug\net7.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\banking_application1\Banking_application_API\bin\Debug\net7.0\Microsoft.Extensions.Identity.Core.dll
+D:\banking_application1\Banking_application_API\bin\Debug\net7.0\Microsoft.Extensions.Identity.Stores.dll
+D:\banking_application1\Banking_application_API\bin\Debug\net7.0\Microsoft.Extensions.Options.dll

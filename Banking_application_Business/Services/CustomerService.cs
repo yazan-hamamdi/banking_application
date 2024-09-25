@@ -42,11 +42,11 @@ namespace Banking_application_Business.Services
             return _mapper.Map<CustomerWithoutId>(customer); 
         }
 
-        public async Task<CustomerWithoutId> UpdateAsync(CustomerWithId customer, int id)
+        public async Task<CustomerWithoutId> UpdateAsync(CustomerWithId customer, string id)
         {
-            var realCustomer = _mapper.Map<Customer>(customer); 
+            var realCustomer = _mapper.Map<Customer>(customer);
             var updatedCustomer = await _customerRepo.UpdateAsync(realCustomer, id);
-            return _mapper.Map<CustomerWithoutId>(updatedCustomer); 
+            return _mapper.Map<CustomerWithoutId>(updatedCustomer);
         }
     }
 }

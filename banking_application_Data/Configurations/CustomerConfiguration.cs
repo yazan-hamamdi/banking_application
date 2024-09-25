@@ -16,12 +16,6 @@ namespace banking_application_Data.Configurations
             builder.Property(c => c.LastName)
                    .HasMaxLength(100)
                    .IsRequired();
-            builder.Property(c => c.Email)
-                   .HasMaxLength(255)
-                   .IsRequired();
-            builder.Property(c => c.Password)
-                   .HasMaxLength(255)
-                   .IsRequired();
 
         }
     }

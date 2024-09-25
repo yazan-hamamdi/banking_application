@@ -32,7 +32,7 @@ namespace banking_application_Data.Repositories
 
         public async Task<ICollection<Customer>> GetAllAsync()
         {
-            return await _context.Customers.ToListAsync(); 
+            return await _context.Customers.AsNoTracking().ToListAsync(); 
         }
 
         public async Task<Customer> GetByIdAsync(int id)
@@ -40,16 +40,18 @@ namespace banking_application_Data.Repositories
             return await _context.Customers.FindAsync(id); 
         }
 
-        public async Task<Customer> UpdateAsync(Customer updatedCustomer, int id)
+        public async Task<Customer> UpdateAsync(Customer updatedCustomer, string id)
         {
             if (updatedCustomer == null || id != updatedCustomer.Id)
             {
-                return null; 
+                return null;
             }
-            _context.Customers.Update(updatedCustomer); 
-            await _context.SaveChangesAsync(); 
+
+            _context.Customers.Update(updatedCustomer);
+            await _context.SaveChangesAsync();
 
             return updatedCustomer;
         }
+
     }
 }

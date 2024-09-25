@@ -7,7 +7,7 @@ namespace Banking_application_Business.IServices
         Task<ICollection<CustomerWithoutId>> GetAllAsync();
         Task<CustomerWithoutId> GetByIdAsync(int id);
         Task<CustomerWithId> AddAsync(CustomerWithId customer);
-        Task<CustomerWithoutId> UpdateAsync(CustomerWithId customer, int id);
+        Task<CustomerWithoutId> UpdateAsync(CustomerWithId customer, string id);
         Task DeleteAsync(int id);
     }
 }
