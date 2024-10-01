@@ -15,7 +15,6 @@ namespace Banking_application_API.Controllers
         {
             _customerService = customerService;
         }
-        [Authorize(Roles = "Admin")]
         [HttpGet]
         public async Task<IActionResult> GetAllCustomers()
         {
@@ -32,7 +31,6 @@ namespace Banking_application_API.Controllers
 
             return Ok(customer);
         }
-        [Authorize(Roles = "User")] // just for testing this method we are not needed anymore :)
         [HttpPost]
         public async Task<IActionResult> CreateCustomer(CustomerWithId customer)
         {

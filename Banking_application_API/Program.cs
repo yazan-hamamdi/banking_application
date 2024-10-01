@@ -19,7 +19,7 @@ namespace Banking_application_API
 
             builder.Services.AddControllers();
             builder.Services.AddEndpointsApiExplorer();
-            builder.Services.AddSwaggerGen();
+            builder.Services.AddSwaggerGenJwtAuth();
 
             // Identity Setup
             builder.Services.AddIdentity<Customer, IdentityRole>()
@@ -70,6 +70,7 @@ namespace Banking_application_API
             builder.Services.AddAutoMapper(typeof(CustomerProfile));
             builder.Services.AddAutoMapper(typeof(TransProfile));
 
+            builder.Services.AddCustomJwtAuth(builder.Configuration);
             var app = builder.Build();
 
             // Seed roles when the application starts

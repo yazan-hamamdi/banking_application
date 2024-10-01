@@ -172,3 +172,4 @@ D:\banking_application1\Banking_application_API\bin\Debug\net7.0\Microsoft.AspNe
 D:\banking_application1\Banking_application_API\bin\Debug\net7.0\Microsoft.Extensions.Identity.Core.dll
 D:\banking_application1\Banking_application_API\bin\Debug\net7.0\Microsoft.Extensions.Identity.Stores.dll
 D:\banking_application1\Banking_application_API\bin\Debug\net7.0\Microsoft.Extensions.Options.dll
+D:\banking_application1\Banking_application_API\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll

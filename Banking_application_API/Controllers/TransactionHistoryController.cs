@@ -1,11 +1,11 @@
 ﻿using Banking_application_Business.DTOs;
 using Banking_application_Business.IServices;
-using banking_application_Data.Entities;
-using banking_application_Data.IEntities;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Banking_application_API.Controllers
 {
+    [Authorize(Roles = "Admin")]
     [Route("api/[controller]")]
     [ApiController]
     public class TransactionHistoryController : ControllerBase

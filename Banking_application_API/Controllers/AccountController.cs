@@ -1,9 +1,11 @@
 ﻿using Banking_application_Business.DTOs;
 using Banking_application_Business.IServices;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Banking_application_API.Controllers
 {
+    [Authorize(Roles = "User")]
     [Route("api/[controller]")]
     [ApiController]
     public class AccountController : ControllerBase
